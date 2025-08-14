@@ -1,4 +1,1 @@
 raw_videos/
-*.DS_Store
-*.mp4
-!videos/*.mp4
