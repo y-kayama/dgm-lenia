@@ -18,26 +18,94 @@
             }
             video {
                 width: 320px;
-                height: 320px;
-                object-fit: cover; /* アスペクト比維持しつつトリミング */
+                height: 240px;
+                object-fit: cover;
                 background: black;
             }
             .item {
                 max-width: 340px;
             }
+            h1 {
+                font-size: 2em;
+                margin: 20px 0;
+            }
             h2 {
-                font-size: 1em;
-                margin: 3px 0;
+                font-size: 1.5em;
+                margin: 15px 0;
+            }
+            h3 {
+                font-size: 1.2em;
+                margin: 10px 0;
             }
             p {
-                font-size: 0.7em;
-                color: #ccc;
-                margin: 0;
+                font-size: 1em;
+                line-height: 1.5em;
+                text-align: left;
+            }
+            ul {
+                text-align: left;
+                margin: 10px auto;
+                max-width: 750px;
+            }
+            li {
+                margin: 5px 0;
+            }
+            section#about {
+                max-width: 800px;
+                margin: auto;
+                text-align: left;
+                background: #222;
+                padding: 20px;
+                border-radius: 10px;
             }
         </style>
     </head>
     <body>
         <h1>DGM Lenia Gallery</h1>
+
+        <!-- README.md 統合部分 -->
+        <section id="about">
+            <h2>DGM Lenia: Metamorphic Transitions in Artificial Life</h2>
+            <h3>Overview</h3>
+            <p>
+                Welcome to the official website for <strong>DGM Lenia</strong> research!
+                This study delves into the fascinating world of <strong>Lenia</strong>,
+                a continuous cellular automaton framework that enables the emergence of
+                complex, autonomous lifeforms [1,2,3,4]. Building upon Lenia's capacity
+                for self-organization, resilience, and adaptive behaviors, our research
+                introduces <strong>Dynamic Growth Mechanisms (DGM)</strong> to explore
+                the emergence and particularly metamorphosis-like transitions of
+                artificial lifeforms [5].
+            </p>
+            <h3>Key Contributions</h3>
+            <ul>
+                <li>
+                    <strong>Dual-phase Growth</strong>: combines growth rules of
+                    Original Lenia [1,2] and Asymptotic Lenia [6,7], producing dynamic
+                    transitions.
+                </li>
+                <li>
+                    <strong>Kernel Scaling</strong>: treats kernel as evolving
+                    attribute, introducing locality and symmetry breaking.
+                </li>
+                <li>
+                    <strong>Kernel Translation</strong>: applies offset vector δ to
+                    break rotational symmetry and promote biodiversity.
+                </li>
+            </ul>
+            <p>
+                Through these mechanisms, we observed
+                <strong>novel lifeforms of metamorphosis</strong>, where organisms
+                undergo continuous yet abrupt transitions between different morphologies
+                and behaviors, echoing processes observed in natural life.
+            </p>
+            <p>
+                For full details, see the <a href="README.md">README</a> or the
+                published paper [5].
+            </p>
+        </section>
+
+        <!-- ギャラリー部分 -->
         <div class="video-container">
             <div class="item">
                 <video
@@ -198,6 +266,60 @@
                 <p>R=19, (a0, λ0)=(0.1, 0.5), (μ, σ)=(0.26, 0.033), (δx, δy)=(6, 6)</p>
             </div>
         </div>
+        <section
+            id="references"
+            style="
+                max-width: 800px;
+                margin: auto;
+                text-align: left;
+                background: #222;
+                padding: 20px;
+                border-radius: 10px;
+            "
+        >
+            <h2>References</h2>
+            <ol>
+                <li>
+                    Chan BWC (2019). <em>Lenia: Biology of artificial life</em>. Complex
+                    Systems 28(3), 251–286.
+                </li>
+                <li>
+                    Chan BWC (2020). <em>Lenia and expanded universe</em>. In:
+                    Artificial Life Conference Proceedings 32, MIT Press, 221–229.
+                </li>
+                <li>
+                    有田隆也, 川口貴子, 鈴木麗璽 (2022).
+                    <em>セルオートマトンによる生命性の探究:ライフゲームから leniaへ</em
+                    >. 人工知能 37(1), 12–18
+                </li>
+                <li>
+                    有田隆也, 鈴木麗璽 (2023).
+                    <em>Leniaから広がる人工生命の新たな可能性</em>. シミュレーション
+                    42(3), 133–142.
+                </li>
+                <li>
+                    Kayama, Y. (2025).
+                    <em
+                        >Metamorphic transitions in lenia through dynamic growth
+                        mechanisms</em
+                    >. In: Proceedings of the 30-th International Symposium on
+                    Artificial Life and Robotics, 181–186.
+                </li>
+                <li>
+                    Kawaguchi T, Suzuki R, Arita T (2021).
+                    <em
+                        >Replacement of the state-updating rule in the continuous
+                        cellular automaton model Lenia</em
+                    >. In: Proceedings of the 26-th International Symposium on
+                    Artificial Life and Robotics, 90–95
+                </li>
+                <li>
+                    Kawaguchi T, Suzuki R, Arita T, Chan B (2021).
+                    <em>Introducing asymptotics to the state-updating rule in Lenia</em
+                    >. In: ALIFE 2021: The 2021 Conference on Artificial Life, MIT
+                    Press, DOI 10.1162/isal_a_00425
+                </li>
+            </ol>
+        </section>
     </body>
 </html>
-
