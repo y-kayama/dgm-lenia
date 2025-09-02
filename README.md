@@ -16,6 +16,10 @@ Our observations include intriguing behaviors such as **Optium pair production a
 
 Explore our research to understand how these Dynamic Growth Mechanisms offer new avenues for modeling and understanding complex natural phenomena, contributing to the study of artificial life, cellular automata, and the principles of self-organization.
 
+ｰｰｰ
+
+**[Visit our Supplementary Online Video Gallery](https://y-kayama.github.io/dgm-lenia/)** to see the emergent lifeforms and their dynamic transitions in action!
+
 ## References
 
 1.  Chan BWC (2019) Lenia: Biology of artificial life. Complex Systems 28(3):251–286
@@ -25,3 +29,4 @@ Explore our research to understand how these Dynamic Growth Mechanisms offer new
 5.  Kayama Y (2025) Metamorphic transitions in lenia through dynamic growth mechanisms. In: Proceedings of the 30-th International Symposium on Artificial Life and Robotics, pp 181–186
 6.  Kawaguchi T, Suzuki R, Arita T (2021) Replacement of the state-updating rule in the continuous cellular automaton model Lenia. In: Proceedings of the 26-th International Symposium on Artificial Life and Robotics, pp 90–95
 7.  Kawaguchi T, Suzuki R, Arita T, Chan B (2021) Introducing asymptotics to the state-updating rule in Lenia. In: ALIFE 2021: The 2021 Conference on Artificial Life, MIT Press, DOI 10.1162/isal_ a_00425
+
