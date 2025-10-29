@@ -26,7 +26,8 @@ Explore our research to understand how these Dynamic Growth Mechanisms offer new
 2.  Chan BWC (2020) Lenia and expanded universe. In: Artificial Life Conference Proceedings 32, MIT Press, pp 221–229
 3.  有田隆也, 川口貴子, 鈴木麗璽 (2022) セルオートマトンによる生命性の探究:ライフゲームから leniaへ. 人工知能 37(1):12–18
 4.  有田隆也, 鈴木麗璽 (2023) Leniaから広がる人工生命の新たな可能性. シミュレーション 42(3):133–142
-5.  Kayama Y (2025) Metamorphic transitions in lenia through dynamic growth mechanisms. In: Proceedings of the 30-th International Symposium on Artificial Life and Robotics, pp 181–186
+5.  Kayama, “Metamorphic transitions in Lenia through Dynamic Growth Mechanisms,” Artificial Life and Robotics, pp. 1–13, 2025, doi: 10.1007/s10015-025-01081-7.
 6.  Kawaguchi T, Suzuki R, Arita T (2021) Replacement of the state-updating rule in the continuous cellular automaton model Lenia. In: Proceedings of the 26-th International Symposium on Artificial Life and Robotics, pp 90–95
 7.  Kawaguchi T, Suzuki R, Arita T, Chan B (2021) Introducing asymptotics to the state-updating rule in Lenia. In: ALIFE 2021: The 2021 Conference on Artificial Life, MIT Press, DOI 10.1162/isal_ a_00425
+
 
